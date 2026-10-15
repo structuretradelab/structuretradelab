@@ -1,30 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Structure Trade Lab — Forex trading education, free tools, broker setup, and actionable guides. Learn leverage, risk management, position sizing, and trading psychology without hype.">
-    <meta name="keywords" content="forex trading, forex education, trading tools, position size calculator, risk management, leverage">
+    <meta name="description"
+        content="Structure Trade Lab — Forex trading education, free tools, broker setup, and actionable guides. Learn leverage, risk management, position sizing, and trading psychology without hype.">
+    <meta name="keywords"
+        content="forex trading, forex education, trading tools, position size calculator, risk management, leverage">
     <meta name="author" content="Structure Trade Lab">
     <title>Structure Trade Lab — Forex Trading Education & Tools</title>
-    
+
     <!-- PREVENT FLASH OF LIGHT IN DARK MODE -->
     <script>
-    (function() {
-        const savedTheme = localStorage.getItem('theme');
-        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
-            document.documentElement.classList.add('dark-mode');
-        }
-    })();
+        (function () {
+            const savedTheme = localStorage.getItem('theme');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+                document.documentElement.classList.add('dark-mode');
+            }
+        })();
     </script>
-    
+
     <!-- CSS Files -->
     <link rel="stylesheet" href="https://structuretradelab.com/assets/css/common.css">
     <link rel="stylesheet" href="https://structuretradelab.com/assets/css/main.css">
 
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "Structure Trade Lab",
+            "url": "https://structuretradelab.com",
+            "description": "Structure Trade Lab — Forex trading education"
+        }
+</script>
+
 </head>
+
 <body>
 
     <!-- HEADER -->
@@ -36,7 +50,7 @@
                     <p>Trade with Structure. Trade with a Plan.</p>
                 </a>
             </div>
-            
+
             <div style="display: flex; align-items: center; gap: 15px;">
                 <button class="dark-mode-toggle" id="darkModeToggle" aria-label="Dark mode">
                     <span class="toggle-icon">🌙</span>
@@ -48,7 +62,7 @@
                     <span></span>
                 </button>
             </div>
-            
+
             <nav id="mainNav">
                 <a href="/" class="active">Home</a>
                 <a href="https://blog.structuretradelab.com">Blog</a>
@@ -82,26 +96,29 @@
         <div class="container">
             <h2 class="section-title">What You'll Find Here</h2>
             <p class="section-subtitle">Three ways to level up your trading — all free, no fluff, no hidden courses.</p>
-            
+
             <div class="three-pillars">
                 <div class="pillar-card">
                     <div class="pillar-icon">📝</div>
                     <h3>Honest Education</h3>
-                    <p>In-depth articles on leverage, position sizing, risk management, trading psychology, and common mistakes. Written by a trader who learned the hard way.</p>
+                    <p>In-depth articles on leverage, position sizing, risk management, trading psychology, and common
+                        mistakes. Written by a trader who learned the hard way.</p>
                     <a href="https://blog.structuretradelab.com" class="pillar-link">Explore Blog →</a>
                 </div>
-                
+
                 <div class="pillar-card">
                     <div class="pillar-icon">🔧</div>
                     <h3>Free Trading Tools</h3>
-                    <p>Position size calculator, risk reward calculator, pip value calculator, and more. Built by a trader, for traders. 100% free, no email required.</p>
+                    <p>Position size calculator, risk reward calculator, pip value calculator, and more. Built by a
+                        trader, for traders. 100% free, no email required.</p>
                     <a href="https://tools.structuretradelab.com" class="pillar-link">Explore Tools →</a>
                 </div>
-                
+
                 <div class="pillar-card">
                     <div class="pillar-icon">💬</div>
                     <h3>Broker Transparency</h3>
-                    <p>Honest review of the broker I personally use after 6+ years. Tight spreads, instant withdrawals, full disclosure about affiliate relationships.</p>
+                    <p>Honest review of the broker I personally use after 6+ years. Tight spreads, instant withdrawals,
+                        full disclosure about affiliate relationships.</p>
                     <a href="/broker-setup" class="pillar-link">View Broker Setup →</a>
                 </div>
             </div>
@@ -115,14 +132,14 @@
         <div class="container">
             <h2 class="section-title">Explore by Topic</h2>
             <p class="section-subtitle">Find exactly what you need to learn next.</p>
-            
+
             <div class="topics-grid">
                 <a href="https://blog.structuretradelab.com/category/getting-started/" class="topic-card">
                     <span class="topic-emoji">🚀</span>
                     <span class="topic-name">Getting Started</span>
-                    <span class="topic-count">12 guides</span>
+                    <span class="topic-count">27 guides</span>
                 </a>
-                <a href="https://blog.structuretradelab.com/category/leverage-&-margin/" class="topic-card">
+                <a href="https://blog.structuretradelab.com/category/leverage-margin/" class="topic-card">
                     <span class="topic-emoji">⚖️</span>
                     <span class="topic-name">Leverage & Margin</span>
                     <span class="topic-count">2 guides</span>
@@ -130,7 +147,7 @@
                 <a href="https://blog.structuretradelab.com/category/risk-management/" class="topic-card">
                     <span class="topic-emoji">🛡️</span>
                     <span class="topic-name">Risk Management</span>
-                    <span class="topic-count">8 guides</span>
+                    <span class="topic-count">18 guides</span>
                 </a>
                 <a href="https://blog.structuretradelab.com/category/position-sizing/" class="topic-card">
                     <span class="topic-emoji">📐</span>
@@ -145,7 +162,7 @@
                 <a href="https://blog.structuretradelab.com/category/strategy-analysis/" class="topic-card">
                     <span class="topic-emoji">📈</span>
                     <span class="topic-name">Strategy & Analysis</span>
-                    <span class="topic-count">10 guides</span>
+                    <span class="topic-count">23 guides</span>
                 </a>
             </div>
         </div>
@@ -160,8 +177,10 @@
                 <div class="featured-tool-content">
                     <span class="featured-badge">🔥 Most Popular Tool</span>
                     <h2>Position Size Calculator</h2>
-                    <p>Calculate the exact lot size based on your risk rules and live market prices. Used by thousands of traders to protect their capital.</p>
-                    <a href="https://tools.structuretradelab.com/position-size-calculator/" class="btn-primary">Try the Calculator →</a>
+                    <p>Calculate the exact lot size based on your risk rules and live market prices. Used by thousands
+                        of traders to protect their capital.</p>
+                    <a href="https://tools.structuretradelab.com/position-size-calculator/" class="btn-primary">Try the
+                        Calculator →</a>
                 </div>
                 <div class="featured-tool-preview">
                     <div class="preview-box">
@@ -194,30 +213,38 @@
         <div class="container">
             <h2 class="section-title">📖 Recent Articles</h2>
             <p class="section-subtitle">Fresh content every week. No fluff, just actionable trading knowledge.</p>
-            
+
             <div class="recent-grid">
                 <div class="recent-card">
                     <div class="recent-category">🚀 Getting Started</div>
-                    <h3><a href="https://blog.structuretradelab.com/category/getting-started/how-to-start-forex-trading/">How to Start Forex Trading: A Step-by-Step Guide</a></h3>
+                    <h3><a
+                            href="https://blog.structuretradelab.com/category/getting-started/how-to-start-forex-trading/">How
+                            to Start Forex Trading: A Step-by-Step Guide</a></h3>
                     <p>From demo accounts to your first trade — practical steps without the fluff.</p>
-                    <a href="https://blog.structuretradelab.com/category/getting-started/how-to-start-forex-trading/" class="read-more">Read more →</a>
+                    <a href="https://blog.structuretradelab.com/category/getting-started/how-to-start-forex-trading/"
+                        class="read-more">Read more →</a>
                 </div>
-                
+
                 <div class="recent-card">
                     <div class="recent-category">⚖️ Leverage & Margin</div>
-                    <h3><a href="https://blog.structuretradelab.com/category/leverage-&-margin/what-is-leverage-in-forex/">What is Leverage in Forex? A Complete Beginner's Guide</a></h3>
+                    <h3><a
+                            href="https://blog.structuretradelab.com/category/leverage-margin/what-is-leverage-in-forex/">What
+                            is Leverage in Forex? A Complete Beginner's Guide</a></h3>
                     <p>Understand how leverage works, the real risks, and why 1:10 is safer than 1:500.</p>
-                    <a href="https://blog.structuretradelab.com/category/leverage-&-margin/what-is-leverage-in-forex/" class="read-more">Read more →</a>
+                    <a href="https://blog.structuretradelab.com/category/leverage-margin/what-is-leverage-in-forex/"
+                        class="read-more">Read more →</a>
                 </div>
-                
+
                 <div class="recent-card">
                     <div class="recent-category">🛡️ Risk Management</div>
-                    <h3><a href="https://blog.structuretradelab.com/category/risk-management/risk-management-101/">Risk Management 101: The 1% Rule & Stop Losses</a></h3>
+                    <h3><a href="https://blog.structuretradelab.com/category/risk-management/risk-management-101/">Risk
+                            Management 101: The 1% Rule & Stop Losses</a></h3>
                     <p>The single most important skill in trading. Learn how professional traders protect capital.</p>
-                    <a href="https://blog.structuretradelab.com/category/risk-management/risk-management-101/" class="read-more">Read more →</a>
+                    <a href="https://blog.structuretradelab.com/category/risk-management/risk-management-101/"
+                        class="read-more">Read more →</a>
                 </div>
             </div>
-            
+
             <div class="view-all">
                 <a href="https://blog.structuretradelab.com" class="btn-outline">View All Articles →</a>
             </div>
@@ -229,9 +256,11 @@
     <!-- ============================================ -->
     <div class="blog-cta">
         <h3>📌 Ready to Start Your Trading Journey?</h3>
-        <p>I've documented my entire broker setup — tight spreads, instant withdrawals, and why I've stuck with Exness for years.</p>
+        <p>I've documented my entire broker setup — tight spreads, instant withdrawals, and why I've stuck with Exness
+            for years.</p>
         <a href="https://structuretradelab.com/broker-setup/" class="btn">View My Broker Setup →</a>
-        <p class="disclosure-small">📌 I'm an Introducing Broker. I earn commission when you trade. No extra cost to you.</p>
+        <p class="disclosure-small">📌 I'm an Introducing Broker. I earn commission when you trade. No extra cost to
+            you.</p>
     </div>
 
     <!-- ============================================ -->
@@ -240,15 +269,18 @@
     <footer>
         <div class="container">
             <div class="footer-disclosure">
-                <strong>Disclosure:</strong> Structure Trade Lab is an independent educational website. As an Introducing Broker (IB), I may earn commissions when you trade through links on this site. This does not affect your trading conditions or costs.
+                <strong>Disclosure:</strong> Structure Trade Lab is an independent educational website. As an
+                Introducing Broker (IB), I may earn commissions when you trade through links on this site. This does not
+                affect your trading conditions or costs.
             </div>
             <div class="footer-disclosure">
-                <strong>Risk Warning:</strong> Trading forex and CFDs carries a high level of risk. Past performance does not guarantee future results. Only trade with money you can afford to lose.
+                <strong>Risk Warning:</strong> Trading forex and CFDs carries a high level of risk. Past performance
+                does not guarantee future results. Only trade with money you can afford to lose.
             </div>
             <p>© <span id="current-year"></span> Structure Trade Lab. All rights reserved.</p>
             <p style="margin-top: 10px;">
-                <a href="/">Home</a> | 
-                <a href="https://blog.structuretradelab.com">Blog</a> | 
+                <a href="/">Home</a> |
+                <a href="https://blog.structuretradelab.com">Blog</a> |
                 <a href="https://tools.structuretradelab.com">Tools</a> |
                 <a href="/about">About</a>
             </p>
@@ -258,4 +290,5 @@
     <!-- JavaScript for Hamburger Menu & Year -->
     <script src="https://structuretradelab.com/assets/js/common.js" defer></script>
 </body>
+
 </html>
